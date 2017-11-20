@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'componentsOC_Example' do
+  pod 'componentsOC', :path => '../'
+
+  target 'componentsOC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
