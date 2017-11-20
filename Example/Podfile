@@ -1,11 +1,10 @@
-use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'componentsOC_Example' do
   pod 'componentsOC', :path => '../'
+end
 
-  target 'componentsOC_Tests' do
+target 'componentsOC_Tests' do
     inherit! :search_paths
-
-    
-  end
+    pod 'componentsOC', :path => '../'
 end

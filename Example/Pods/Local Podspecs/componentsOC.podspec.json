@@ -1,0 +1,22 @@
+{
+  "name": "componentsOC",
+  "version": "0.1.0",
+  "summary": "A short description of componentsOC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Climb0516/componentsOC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Climb0516": "wangpandeng@waqu.com"
+  },
+  "source": {
+    "git": "https://github.com/Climb0516/componentsOC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "componentsOC/Classes/**/*"
+}
