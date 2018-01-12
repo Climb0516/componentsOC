@@ -24,7 +24,7 @@ TODO: components of OC for iOS Develop
   s.homepage         = 'https://github.com/Climb0516/componentsOC'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Climb0516' => 'wangpandeng@waqu.com' }
+  s.author           = { 'Climb0516' => 'wangpandeng1223@163.com' }
   s.source           = { :git => 'https://github.com/Climb0516/componentsOC.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

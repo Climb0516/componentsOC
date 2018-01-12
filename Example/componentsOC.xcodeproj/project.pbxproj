@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37E2F9B72008AF55006A79A0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F9B62008AF55006A79A0 /* FirstViewController.m */; };
+		37E2F9BA2008AF60006A79A0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F9B92008AF60006A79A0 /* SecondViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,7 +41,11 @@
 /* Begin PBXFileReference section */
 		0484C223EC8881EEA8375D8B /* Pods-componentsOC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-componentsOC_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-componentsOC_Example/Pods-componentsOC_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		138F59B3612E2A22E9E037FC /* Pods-componentsOC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-componentsOC_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-componentsOC_Example/Pods-componentsOC_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1C22126F84FD1D163031EC77 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1C22126F84FD1D163031EC77 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		37E2F9B52008AF55006A79A0 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		37E2F9B62008AF55006A79A0 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		37E2F9B82008AF60006A79A0 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		37E2F9B92008AF60006A79A0 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* componentsOC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = componentsOC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,8 +70,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FFF2305FFB422D6068F1C6C /* libPods-componentsOC_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-componentsOC_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B412A3D7A7489CFB57DA80EE /* Pods-componentsOC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-componentsOC_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-componentsOC_Tests/Pods-componentsOC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B5C025A77FED87D0863A9914 /* componentsOC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = componentsOC.podspec; path = ../componentsOC.podspec; sourceTree = "<group>"; };
-		D84B91DD328ADD44F1A6239A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B5C025A77FED87D0863A9914 /* componentsOC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = componentsOC.podspec; path = ../componentsOC.podspec; sourceTree = "<group>"; };
+		D84B91DD328ADD44F1A6239A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E70F6219E623445FE71C2A98 /* Pods-componentsOC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-componentsOC_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-componentsOC_Tests/Pods-componentsOC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +143,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CFAViewController.h */,
 				6003F5A6195388D20070C39A /* CFAViewController.m */,
+				37E2F9B52008AF55006A79A0 /* FirstViewController.h */,
+				37E2F9B62008AF55006A79A0 /* FirstViewController.m */,
+				37E2F9B82008AF60006A79A0 /* SecondViewController.h */,
+				37E2F9B92008AF60006A79A0 /* SecondViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -403,9 +413,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37E2F9BA2008AF60006A79A0 /* SecondViewController.m in Sources */,
 				6003F59E195388D20070C39A /* CFAAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CFAViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				37E2F9B72008AF55006A79A0 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
