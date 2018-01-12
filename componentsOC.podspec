@@ -28,6 +28,7 @@ TODO: components of OC for iOS Develop
   s.source           = { :git => 'https://github.com/Climb0516/componentsOC.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.platform     = :ios
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'componentsOC/Classes/**/*'
