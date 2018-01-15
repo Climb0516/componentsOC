@@ -6,11 +6,11 @@
 //  Copyright © 2017年 王攀登. All rights reserved.
 //
 
-#import "MMView.h"
+#import <UIKit/UIKit.h>
 
 /**
  *  用于初始启动时的轮播展示
  */
-@interface LaunchingScrollView : MMView
+@interface LaunchingScrollView : UIView
 
 @end

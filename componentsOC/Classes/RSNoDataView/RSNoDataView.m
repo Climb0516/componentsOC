@@ -8,6 +8,12 @@
 
 #import "RSNoDataView.h"
 
+#import <Masonry.h>
+
+#import "ColorMacro.h"
+#import "FontMacro.h"
+#import "SizeMacro.h"
+
 @implementation RSNoDataView
 
 -(instancetype)initWithFrame:(CGRect)frame noDataImage:(NSString *)noDataImage FirstNoDataLabelStr:(NSString *)FirstNoDataLabelStr  noDataButtonTitle:(NSString *)noDataButtonTitle{

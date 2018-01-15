@@ -8,6 +8,8 @@
 
 #import "LaunchingScrollView.h"
 
+#import "UtilsMacro.h"
+
 @interface LaunchingScrollView ()<UIScrollViewDelegate>
 
 @property(nonatomic, strong) NSArray *imgArray;

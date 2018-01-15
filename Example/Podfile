@@ -2,6 +2,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'componentsOC_Example' do
   pod 'componentsOC', :path => '../'
+  pod 'Masonry'
 end
 
 target 'componentsOC_Tests' do

@@ -1,8 +1,10 @@
 PODS:
   - componentsOC (0.1.0)
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - componentsOC (from `../`)
+  - Masonry
 
 EXTERNAL SOURCES:
   componentsOC:
@@ -10,7 +12,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   componentsOC: 60eca8846a82de0aebb6bd01b054c612ebc4ad4a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 383b250bf584d6c5ce4bd6ac4a12b83bee44b4c1
+PODFILE CHECKSUM: 2b7debfaef3917286e6a22863c49c448b6ef98d4
 
 COCOAPODS: 1.3.1
